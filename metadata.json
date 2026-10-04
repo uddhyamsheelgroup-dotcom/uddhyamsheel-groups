@@ -1,0 +1,6 @@
+{
+  "name": "Uddhyamsheel Group Management System",
+  "description": "Private cooperative and group financial management platform for Uddhyamsheel Group, Lumbini, Nepal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

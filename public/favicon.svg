@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ugNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02428f" />
+      <stop offset="45%" stop-color="#005fa6" />
+      <stop offset="100%" stop-color="#01244d" />
+    </linearGradient>
+    <linearGradient id="ugCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2ff" />
+      <stop offset="40%" stop-color="#00b4d8" />
+      <stop offset="100%" stop-color="#0077b6" />
+    </linearGradient>
+    <linearGradient id="arcGlow" x1="0%" y1="70%" x2="100%" y2="30%">
+      <stop offset="0%" stop-color="#004e92" />
+      <stop offset="25%" stop-color="#0096c7" />
+      <stop offset="60%" stop-color="#00b4d8" />
+      <stop offset="100%" stop-color="#48cae4" />
+    </linearGradient>
+    <linearGradient id="crestHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#e0f7fa" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="ugDrop" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#001833" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <g filter="url(#ugDrop)">
+    <path d="M 66 118 L 140 118 L 140 274 C 140 324 176 360 222 360 C 268 360 300 324 300 274 L 300 118 L 374 118 L 374 276 C 374 362 304 426 220 426 C 136 426 66 362 66 276 Z" fill="url(#ugNavy)" />
+    <path d="M 66 118 L 140 118 L 140 200 L 66 170 Z" fill="url(#ugCyan)" opacity="0.92" />
+    <path d="M 300 118 L 374 118 L 374 220 L 300 202 Z" fill="url(#ugCyan)" opacity="0.95" />
+    <path d="M 98 336 C 128 382 172 408 220 408 C 268 408 312 382 342 336 C 310 388 262 418 220 418 C 178 418 130 388 98 336 Z" fill="#00b4d8" opacity="0.85" />
+    <path d="M 382 134 C 424 134 456 150 478 178 L 422 224 C 410 208 396 200 380 200 C 344 200 320 230 320 274 C 320 318 344 348 380 348 C 398 348 412 340 420 328 L 420 290 L 376 290 L 376 236 L 484 236 L 484 352 C 456 398 422 426 378 426 C 300 426 248 360 248 274 C 248 188 300 134 382 134 Z" fill="url(#ugNavy)" />
+    <path d="M 382 134 C 424 134 456 150 478 178 L 422 224 C 410 208 396 200 380 200 C 354 200 334 216 326 238 L 304 182 C 324 150 354 134 382 134 Z" fill="url(#ugCyan)" />
+    <path d="M 376 236 L 484 236 L 484 290 L 420 290 L 420 328 C 412 340 398 348 380 348 L 380 426 C 422 426 456 398 484 352 L 484 236 Z" fill="url(#ugNavy)" />
+    <path d="M 420 290 L 484 290 L 484 352 L 420 328 Z" fill="#00b4d8" opacity="0.35" />
+    <path d="M 32 306 C 38 376 136 362 210 286 C 286 206 384 156 498 176 C 414 160 314 200 240 278 C 166 354 80 380 32 306 Z" fill="url(#arcGlow)" />
+    <path d="M 48 326 C 102 372 178 342 248 268 C 320 194 408 162 490 172 C 416 166 332 196 256 272 C 184 344 108 370 48 326 Z" fill="url(#crestHighlight)" />
+    <path d="M 118 332 C 156 352 200 332 240 288 C 220 310 178 338 118 332 Z" fill="#001833" opacity="0.45" />
+  </g>
+</svg>

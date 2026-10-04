@@ -1,0 +1,19 @@
+name = "uddhyamsheel-groups"
+main = "server/worker.ts"
+compatibility_date = "2024-09-23"
+
+# Cloudflare Workers Static Assets for dist directory
+[assets]
+directory = "dist"
+binding = "ASSETS"
+
+# Production Cloudflare D1 Database Binding
+[[d1_databases]]
+binding = "DB"
+database_name = "uddhyamsheel-db"
+database_id = "66e3332e-2877-4677-aca2-85298c7b07b6"
+migrations_dir = "migrations"
+
+[vars]
+ENVIRONMENT = "production"
+ADMIN_USERNAME = "admin"
